@@ -1294,8 +1294,6 @@ module.exports = function(grunt) {
                 'setNotifications:shell:checkoutTag',
                 'shell:decafVersion',
                 'setNotifications:shell:decafVersion',
-                'gitadd:version',
-                'gitcommit:version_bump',
                 'compressPhp',
                 'maybeRunNpm',
                 'shell:remove_folders_decaf',
@@ -1419,3 +1417,4 @@ module.exports = function(grunt) {
             ]);
     });
 }
+
